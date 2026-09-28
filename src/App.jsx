@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Freelancers from "./pages/Freelancers";
 import FreelancerDetails from "./pages/FreelancerDetails";
@@ -21,6 +22,8 @@ function App() {
         <Route path="/saved" element={<SavedFreelancers />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }

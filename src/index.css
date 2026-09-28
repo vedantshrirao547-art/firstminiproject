@@ -33,6 +33,16 @@ body {
   min-height: 100vh;
 }
 
+.footer {
+  border-top: 1px solid var(--line);
+  margin-top: 24px;
+  padding: 22px 7%;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 a {
   text-decoration: none;
 }
